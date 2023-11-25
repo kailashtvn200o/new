@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+.mb-150 {
+    margin-bottom: 150px;
+}
+
+.aboutImg {
+    width: 100%;
+}
+
+.bannerCard {
+    position: relative;
+}
+.bannerImg {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.bannerText {
+    position: absolute;
+    top: 100px;
+    left: 7%;
+    color: white;
+    padding: 10px;
+}
+.bannerCont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 525px;
+}
+.fonth5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.fonth2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    text-align: start;
+}
+
+.fonth4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: start;
+    color: #ffffff;
+}
+
+.featureContainer {
+    margin: 80px 0px 80px 0px;
+    background-color: #edf8ff;
+}
+
+.featureSubContainer {
+    padding: 80px 0px 80px 0px;
+}
+
+.featureSpanBold {
+    font-family: "Montserrat", sans-serif;
+    color: #252b42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.featureSubContainer2 {
+    margin: 0px 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.featureSpanSmall {
+    color: #252b42;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.benefitcontainer {
+    padding: 20px 60px;
+}
+
+.benefitrow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 35px;
+    /* padding: 20px; */
+}
+
+.benefitrow1heading {
+    font-family: "Montserrat", sans-serif;
+    color: #252b42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: start;
+    margin: 0px 42px 0px 0px;
+    text-transform: uppercase;
+}
+
+.benefitrow1subheading {
+    color: #252b42;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: start;
+}
+
+.benefitrow2 {
+    padding: 10px;
+    display: contents;
+}
+
+.benefitrow2Img {
+    width: 100%;
+}
+
+.benefitrow3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 10px;
+}
+
+.benefitrow3heading {
+    font-family: "Montserrat", sans-serif;
+    color: #252b42;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: start;
+}
+
+.benefitrow3subheading {
+    font-family: "Montserrat", sans-serif;
+    color: #737373;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: start;
+}
+.benefitrow3container {
+    display: flex;
+    flex-direction: column;
+    gap: "4px";
+}
+
+.letstalkcontainer {
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.letstalksubcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.meettxt {
+    font-family: "Montserrat", sans-serif;
+    color: #252b42;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.talktxt {
+    font-family: "Montserrat", sans-serif;
+    color: #252b42;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.businessoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 35%;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+}
+
+.contactImg {
+    width: 100%;
+}
+
+.contactoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 35%;
+    background-color: #EDF8FF;
+}
+
+.contactcontainer {
+    padding: 0px 12px;
+}
+
+.contact2Img {
+    width: 100%;
+    /* height: 634px; */
+}
+
+.contactForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.contactinputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 70%;
+}
+
+/* styles.css */
+.contactinputs input[type="text"] {
+    width: 100%;
+    padding: 4px 2px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.contactinputs input[type="text"]:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+.fonttextarea {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    resize: none;
+}
+
+.fonttextarea:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+.contactimage-container1{
+    right:20px;
+    position:relative;
+    display:inline-block;
+    text-align: center;
+}
+.owncard{
+    margin-bottom: 15px;
+}
+.contactForm .contactinputs input{
+    width: 100%;
+    padding: 4px 2px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+@media (max-width:1480px){
+    .featureSubContainer2 {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0px 20px;
+    }
+}
+@media (max-width:991px){
+    .mb-150 {
+        margin-bottom: 50px;
+    }
+    .benefitrow1heading{
+        font-size: 18px;
+    }
+    .benefitrow3subheading,
+    .benefitrow1subheading{
+        font-size: 18px;
+    }
+    .benefitcontainer {
+        padding: 20px;
+    }
+    .featureContainer{
+        margin: 0 0 30px;
+    }
+    .featureSubContainer {
+        padding: 40px 0;
+    }
+}
+@media (max-width:767px){
+    .contactimage-container1{
+        right: 0;
+    }
+    .contactForm{
+        padding-bottom: 30px;
+    }
+    .contactinputs{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .benefitrow1{
+        gap: 4;
+    }
+    .benefitrow2{
+        margin: 20px 0;
+        display: block;
+        padding: 0;
+    }
+}

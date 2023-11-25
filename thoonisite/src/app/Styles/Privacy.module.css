@@ -1,0 +1,41 @@
+.PrivacyContainer {
+
+    padding: 48px 80px;
+}
+
+.PrivacyHeading1 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.PrivacyHeading2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.PrivacyTitle {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.PrivacyPara {
+    font-weight: 400;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.Termspoints {
+    padding: 14px 60px;
+}
+
+.ReturnsTitle{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 18px;
+}
